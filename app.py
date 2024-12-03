@@ -24,6 +24,7 @@ selected_y_var = st.selectbox(
 #     penguins_df = pd.read_csv(penguin_file)
 # else:
 #     st.stop()
+# I hope I am doing this right
 
 alt_chart = (
     alt.Chart(penguins_df, title="Scatterplot of Palmer's Penguins")
